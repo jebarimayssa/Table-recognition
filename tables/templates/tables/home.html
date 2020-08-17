@@ -23,7 +23,7 @@
     </div>
 -->
 
-  </nav>
+  <!-- </nav> -->
 
   <main>
     <div class="centerpage">
@@ -170,43 +170,7 @@
 
             }
 
-
-             var max=0;
-             //var element=document.getElementById('table');
-             var totalRowCount = table.rows.length;
-        // this algorithmn counts the max number of nonempty columns
-            for(var i=0 ; i<totalRowCount;i++)
-            {
-                var numCols=0;
-                for(var j=0;j<table.rows[i].cells.length;j++)
-                {
-                    if(table.rows[i].cells[j].textContent!='')
-                        ++numCols;
-                    }
-
-                    if(numCols>max)
-                    max=numCols;
-                    }
-
-                    console.log(max);
-
-                // now we remove the rows which have nonempty rows less than max
-                for(var i=0;i<table.rows.length;i++)
-                {
-                    var numCols=0;
-                        for(var j=0;j<table.rows[i].cells.length;j++)
-                        {
-                        if(table.rows[i].cells[j].textContent!='')
-                            ++numCols;
-                        }
-
-                        if(numCols!=max)
-                        //table.parentNode.removeChild(table);
-                        table.rows[i].innerHTML="";
-
-                        else
-                        break; // ensures that only the header is removed
-                        }
+        
 
 
 
@@ -234,12 +198,27 @@
             $('table tr').css('border-bottom', '1px solid #dddddd');
             $('table tr:last-of-type').css('border-bottom', '2px solid green');
 
+            if(document.getElementsByTagName('table')!=null)
+            {
+              var element=document.getElementsByTagName('table')[0];
+             var totalRowCount = element.rows.length;
+
+             for(var i=1 ; i<totalRowCount;i++)
+            {
+                if(element.rows[i].cells[element.rows[i].cells.length-1].textContent==" ")
+                {
+                  element.rows[i].innerHTML="";  
+                }
+                else
+                break;
+            }
+          }
 
           },
         })
       })
     })
-
+    
 
 
 
