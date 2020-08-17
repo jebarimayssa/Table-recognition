@@ -1,43 +1,15 @@
 ,0,1,2,3
-0, Z| Sidi Daoued La marsa, , , 
-1, , , , 
-2, , , , 
-3, , (exprimeé en dinars), , 
-4, , ," 31,.Décembre", 
-5, , , , 
-6, Flux de trésorerie liés a l'exploitation, , , 
-7, Resultat net, , , 
-8, Ajustements pour :, , , 
-9, * Amortissements et provisions, , , 
-10, * Variation des :, , , 
-11, - Stocks, , (1 288 941), (1 335 674)
-12, - Creances, , (1 973 459), (763 734)
-13, - Autres actifs, ," (273 1
-
-34)"," (82
-
-222)"
-14, - Fournisseurs et autres dettes, , , 
-15, - Autres passifs courants, , , 
-16, - Autres passifs financiers, , , 
-17, * Transfert de charges, , , 
-18, Ajustement, , , 
-19, Flux de trésorerie provenant de |'exploitation, , (225 398), 
-20, Flux de trésorerie liés aux activités d'investissement, , , 
-21, Décaissement provenant de |'acquisition d'immobilisations, , , 
-22, corporelles, , (146 162), (39 692)
-23, Décaissement provenant de l'acquisition d'immobilisations, , , 
-24, financiéres, , , 800)
-25, Encaissement sur cession d'immobilisations, , , 
-26, financieres, , , 
-27, Flux de trésorerie provenant des activités d'investissement, , (142 112), (44 492)
-28, Flux de trésorerie liés aux activités de financement, , , 
-29, Encaissements suite a l'emission de parts sociales, , , 
-30, Encaissements provenant des emprunts, , , 
-31, Remboursement des emprunts, ," (31 706
-
-)", 
-32, Flux de trésorerie provenant des activités de financement, , , 
-33, Variation de trésorerie, , (278 903), 
-34, Trésorerie au début de l'exercice, , , 
-35, Tresorerie ala cloture de l'exercice, , , 
+0, Actifs :, , , 
+1, Actils, Notes, S1/12/2014, 31/12/2013
+2, Actils non courants, , , 
+3, Immobilisations incorporelles, , 372 029, 354 310
+4, Amort. Immobilisations incorporelles, , -206 446, -183 399
+5, , 41, 165 583, 170 911
+6, Immobilisations corporelles, , 5 435 008, 5 216 052
+7, Amort. Immobilisations corporelles, , ~4 120 407, “SYIS VIZ
+8, ," 42,", 1314 601, 1 500 079
+9, Immobilisations financiéres, , 85 328, 66 477
+10, Prov. Immobilisations financiéres, , -2 904, -498
+11, , 43, 82 424, 65 979
+12, Autres Actifs non courants, 44, 42 870, 38 14
+13, ‘Total des Actifs non courants, , 1 605 478, 1595 483

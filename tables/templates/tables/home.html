@@ -149,14 +149,24 @@
                 tr = table.insertRow(-1)
 
                 for (var i = 0; i < rowsL.length; i++) {
+                    var fin_date="";
                     var tabCell = tr.insertCell(-1);
 
                     tabCell.innerHTML = "<div contenteditable>" + jsObj [i] [j] + "</div>";
 
-                    if(tabCell.textContent.match(/^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/))
+                    if((tabCell.textContent.trim()).match(/^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/))
                     {
+                        var y=tabCell.textContent.trim().lastIndexOf('/');
+                        var x=tabCell.textContent.trim().indexOf('/');
+
+                        var year=tabCell.textContent.trim().substring(y+1);
+                        var date=tabCell.textContent.trim().substring(0,x);
+                        var month=tabCell.textContent.trim().substring(x+1,y);
+
+                        fin_date=year+"-"+month+"-"+date;
+                        
                         console.log("Date valid");
-                        tabCell.innerHTML = "<input type='date'>"
+                        tabCell.innerHTML = "<input type='date' placeholder=\"dd-mm-yyyy\" value="+fin_date+" >"
                     }
                        //tabCell.value = jsObj [i] [j];
                         else
