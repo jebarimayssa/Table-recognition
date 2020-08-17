@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+button, input[type=button] {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    margin-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 56px;
+}
+
+nav {
+    padding: 0 10%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #3498DB;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links li a {
+    color: #3498DB;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        padding: 0 10%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-links {
+        display: none;
+    }
+}
+
+.sectionHeader {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(29, 29, 29);
+    padding-bottom: 25px;
+}
+
+.centerpage {
+    padding-bottom: 5rem;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+img {
+    align-self: center;
+    width: 23rem;
+}
+
+#icon {
+    height: 5%;
+    width: 5%;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+    cursor: pointer;
+}
+
+#custom-button {
+    margin: 1rem 1rem;
+    border: 0;
+    background-color: #3498db;
+    border-radius: 5rem;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    transition: ease 0.2s;
+    outline: none;
+}
+
+#custom-button:hover {
+    transform: scale(1.1);
+}
+
+#custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+
+.myButton {
+    margin: 1rem 1rem;
+    border: 0;
+    background-color: #3498db;
+    border-radius: 5rem;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    transition: ease 0.2s;
+    outline: none;
+}
+
+.myButton:hover {
+    transform: scale(1.1);
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#OR {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .buttons {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #custom-button, .myButton {
+        font-size: 12px;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#middle {
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#last p {
+    margin-left: 0;
+    color: white;
+}
+
+#last {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3498db;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+}
+
+#last div {
+    display: flex;
+    align-items: center;
+}
+
+#call {
+    width: 12rem;
+}
+
+#result {
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 5rem;
+}
+
+#xlsx, #csv {
+    background-color: #27ae60;
+}
