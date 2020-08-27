@@ -12,6 +12,9 @@ body {
 button, input[type=button] {
     font-family: "Montserrat", sans-serif;
 }
+.selectedElement{
+    background-color:#b2a4b0;
+}
 
 .main {
     display: flex;
